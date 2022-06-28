@@ -1,0 +1,29 @@
+{
+  "name": "e-commerce-back-end",
+  "version": "1.0.0",
+  "description": "backend of my ecommerce app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./Src/index.server.js",
+    "devStart": "nodemon ./Src/index.server.js"
+  },
+  "keywords": [
+    "e-commerce",
+    "mern",
+    "prject",
+    "api"
+  ],
+  "author": "jaoudallah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
